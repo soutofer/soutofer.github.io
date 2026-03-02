@@ -15,32 +15,32 @@ name                    : &name "Fernanda S. Barreto"
 description             : &description "Ph.D. Researcher in Hydrogeology at USP & UWaterloo. Focusing on groundwater contamination and urban water management."
 url                     : https://soutofer.github.io 
 baseurl                 : ""
-repository              : "soutofer/academicpages.github.io"
+repository              : "soutofer/soutofer.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
   # Biographic information
 author:
-  avatar                : "WhatsApp Image 2026-01-29 at 16.49.42.jpeg" # Certifique-se de que sua foto na pasta /images tem este nome
+  avatar                : "profile.jpg" 
   name                  : "Fernanda S. Barreto"
   bio                   : "PhD Researcher | Hydrogeology | Urban Water Management"
   location              : "São Paulo, Brazil / Waterloo, Canada"
   employer              : "University of São Paulo (USP)"
   email                 : "fernandasouto@usp.br"
   # Academic websites
-  academia         : "https://fflch.academia.edu/FernandaSouto" # URL
-  googlescholar    : "https://scholar.google.com/citations?user=NI0j8IEAAAAJ"
-  orcid            : "https://orcid.org/0000-0002-9891-5203"
-  researchgate     : "https://www.researchgate.net/profile/Fernanda-Barreto-6"
-  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57396405200"
+  academia              : "https://fflch.academia.edu/FernandaSouto"
+  googlescholar         : "https://scholar.google.com/citations?user=NI0j8IEAAAAJ"
+  orcid                 : "https://orcid.org/0000-0002-9891-5203"
+  researchgate          : "https://www.researchgate.net/profile/Fernanda-Barreto-6"
+  scopus                : "https://www.scopus.com/authid/detail.uri?authorId=57396405200"
 
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "soutofer"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
