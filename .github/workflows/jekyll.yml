@@ -1,35 +1,27 @@
-name: Jekyll site CI
+Jekyll site CI
+Update scrape_talks.yml #1
+All jobs
+Run details
+Triggered via push 1 minute ago
+@soutofersoutofer
+pushed
+ 8e2a5a7
+master
+Status
+Success
+Total duration
+32s
+Artifacts
+1
 
-on:
-  push:
-    branches: [ "master" ]
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Build the site in Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+Annotations
+1 warning
+build
+The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
+Artifacts
+Produced during runtime
+Name	Size	Digest	
+github-pages
+13.7 MB	
+sha256:a573b98d95abe1a1a1ce9e2defee3cfe07b94e5c4f5cf4b4b6d3011a5e1d2631
